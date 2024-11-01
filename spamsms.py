@@ -17,7 +17,7 @@ ban = """
   Lưu Ý:
   • Để dừng tấn công bấm [ CTRL + c ] 2 lần
   • Khi chạy tool máy sẽ có cảm giác lag !!!
-
+  • / xyzvandung /
 \033[1;31m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 """
