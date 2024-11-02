@@ -109,7 +109,14 @@ class Zefoy:
             i += 1
         table.title = f"{Fore.WHITE} guns.lol/xyzvandung: {len([x for x in self.services_status if self.services_status[x]])}{Fore.RESET}"
         print(table)
-
+        print('██╗   ██╗ █████╗ ███╗   ██╗    ██████╗ ██╗   ██╗███╗   ██╗ ██████╗ 
+██║   ██║██╔══██╗████╗  ██║    ██╔══██╗██║   ██║████╗  ██║██╔════╝ 
+██║   ██║███████║██╔██╗ ██║    ██║  ██║██║   ██║██╔██╗ ██║██║  ███╗
+╚██╗ ██╔╝██╔══██║██║╚██╗██║    ██║  ██║██║   ██║██║╚██╗██║██║   ██║
+ ╚████╔╝ ██║  ██║██║ ╚████║    ██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝
+  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ 
+                                                                   ')
+        
     def find_video(self):
         if self.service is None: return (False, "You didn't choose the service")
         while True:
