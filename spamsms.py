@@ -3502,7 +3502,7 @@ def run(sdt,i):
   threading.submit(spamcall,sdt)
   threading.submit(KILO,sdt)
   threading.submit(GAPO,sdt) 
-  print("[ xyzvandung ] Spam SMS - Call | Delay : 5 | Trạng Thái : Thành Công ",)  
+  /033[1;32m print("[ xyzvandung ] Spam SMS - Call | Delay : 5 | Trạng Thái : Thành Công ",)  
   for j in range(0, 5):
     # code trong vòng lặp
     print(f"[ xyzvandung ] | LOADING \r",end="")
