@@ -108,14 +108,7 @@ class Zefoy:
             table.add_row([f"{Fore.CYAN}{i}{Fore.RESET}", service, f"{Fore.GREEN if 'ago updated' in self.services[service] else Fore.RED}{self.services[service]}{Fore.RESET}"])
             i += 1
         table.title = f"{Fore.WHITE} guns.lol/xyzvandung: {len([x for x in self.services_status if self.services_status[x]])}{Fore.RESET}"
-        print(table)
-        print('██╗   ██╗ █████╗ ███╗   ██╗    ██████╗ ██╗   ██╗███╗   ██╗ ██████╗ 
-██║   ██║██╔══██╗████╗  ██║    ██╔══██╗██║   ██║████╗  ██║██╔════╝ 
-██║   ██║███████║██╔██╗ ██║    ██║  ██║██║   ██║██╔██╗ ██║██║  ███╗
-╚██╗ ██╔╝██╔══██║██║╚██╗██║    ██║  ██║██║   ██║██║╚██╗██║██║   ██║
- ╚████╔╝ ██║  ██║██║ ╚████║    ██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝
-  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ 
-                                                                   ')
+        print(table)                                                              ')
         
     def find_video(self):
         if self.service is None: return (False, "You didn't choose the service")
